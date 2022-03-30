@@ -1,0 +1,20 @@
+from django.contrib import admin
+from .models import *
+# Register your models here.
+admin.site.register(ItemInformationModel)
+admin.site.register(EmployeeModel)
+admin.site.register(ProjectRoleModel)
+admin.site.register(EmployeeManagementModel)
+admin.site.register(ProjectStartModel)
+admin.site.register(FileClassModel)
+admin.site.register(RequestingResearchModel, )
+admin.site.register(SystemEnvironmentDocumentationModel, )
+admin.site.register(SoftwareInstallationPackageModel, )
+admin.site.register(ReportDevelopmentModel, )
+admin.site.register(DataDevelopmentModel, )
+admin.site.register(ProjectPlanDocumentModel, )
+admin.site.register(RiskManagementModel, )
+admin.site.register(ExternalStakeholdersModel, )
+admin.site.register(ProjectDayModel, )
+admin.site.register(ProjectSummaryModel, )
+admin.site.register(UserModel, )
